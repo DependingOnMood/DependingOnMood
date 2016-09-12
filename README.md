@@ -1,1 +1,2 @@
-dependingonmood.com web page
+DependingOnMood web page
+dependingonmood.com
