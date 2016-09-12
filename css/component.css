@@ -1,0 +1,157 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+
+.large-header {
+	background-image: url('../img/background.jpg');
+	background-position: center bottom;
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 5vw;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+.second-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 67%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 3vw;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.second-title .thin {
+    font-weight: 200;
+}
+.myButton {
+    background-color:rgba(255,255,255,0.2);
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    font-family:'Clicker Script', cursive;
+    color:#ffffff !important;
+    font-size:15px;
+    padding:10px 20px;
+    margin: 5px;
+    text-decoration:none;
+}
+.myButton:hover {
+    color:#ffffff;
+    background-color:rgba(105,100,100,0.3);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.mySpecialButton {
+    background-color:transparent;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    font-family:'Clicker Script', cursive;
+    color:#ffffff !important;
+    font-size:15px;
+    padding:10px 20px;
+    margin: 5px;
+    text-decoration:none;
+}
+.mySpecialButton:hover {
+    color:#ffffff;
+    background-color:rgba(105,100,100,0.3);
+}
+.mySpecialButton:active {
+    position:relative;
+    top:1px;
+}
+
+a:focus {
+    outline: none;
+}
+a:visited {
+    color:#ffffff;
+    text-decoration:none;
+}
+@media screen and (max-width: 768px) {
+
+    .main-title {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        color: #f9f1e9;
+        text-align: center;
+        top: 45%;
+        left: 50%;
+        -webkit-transform: translate3d(-50%,-50%,0);
+        transform: translate3d(-50%,-50%,0);
+
+        font-family: 'Clicker Script', cursive;
+        font-weight: normal;
+        font-size: 6vw;
+        padding-left: 10px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+}
+@media screen and (max-width: 550px) {
+
+    .main-title {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        color: #f9f1e9;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate3d(-50%,-50%,0);
+        transform: translate3d(-50%,-50%,0);
+
+        font-family: 'Clicker Script', cursive;
+        font-weight: normal;
+        font-size: 7vw;
+        padding-left: 10px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+}
